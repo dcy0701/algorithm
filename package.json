@@ -1,0 +1,37 @@
+{
+  "name": "sword-offer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.1.1",
+    "jest": "*",
+    "ts-jest": "*"
+  },
+  "dependencies": {
+    "typescript": "*"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/problems/*.+(test\\.ts)"
+    ]
+  }
+
+}
