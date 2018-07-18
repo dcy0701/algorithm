@@ -1,4 +1,4 @@
-import Find = require("./1");
+import Find = require("./1.find");
 
 it("5 in given", () => {
   const given = [
